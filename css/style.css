@@ -4,8 +4,8 @@
     --header-height: 3rem;
 
     /* ============ COLORS ================ */
-        /* DECIDE YOUR BROWSER THEME */
-    --hue-color: 335;  /* GREEN: 144,  Blue: 230, Purple: 250, Pink: 340 */
+     
+    --hue-color: 335;
 
         /* HSL Color Mode */
     --first-color: hsl(var(--hue-color), 35%, 70%);
@@ -31,15 +31,6 @@
     --robotomono-font: 'Source Serif Pro', serif;
     --bigfat-font: 'Russo One', sans-serif;
 
-    /*
-font-family: 'Lobster', cursive;
-font-family: 'Maven Pro', sans-serif;
-font-family: 'Pacifico', cursive;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Roboto Slab', serif;
-font-family: 'Source Serif Pro', serif; */
 
     /* 1rem = 16px, .5rem = 8px */
     --big-font-size: 2rem;
@@ -98,15 +89,15 @@ font-family: 'Source Serif Pro', serif; */
 /* =========== VARIABLE COLOR DARK THEME ============ */
 body.dark-theme{
     /* HSL Color Mode */
-    --first-color: hsl(var(--hue-color), 40%, 70%); /* Not changed */
+    --first-color: hsl(var(--hue-color), 40%, 70%); 
     --first-color-second: hsl(var(--hue-color), 30%, 8%);
-    --first-color-alt: hsl(var(--hue-color), 55%, 50%); /* Not changed */
-    --first-color-lighter: hsl(var(--hue-color), 90%, 82%); /* Not changed */
+    --first-color-alt: hsl(var(--hue-color), 55%, 50%); 
+    --first-color-lighter: hsl(var(--hue-color), 90%, 82%); 
 
     --title-color: hsl(var(--hue-color), 10%, 95%);
     --text-color: hsl(var(--hue-color), 10%, 75%);
     --mainText: hsl(var(--hue-color), 10%, 75%);
-    --text-color-light: hsl(var(--hue-color), 10%, 65%); /* Not changed */
+    --text-color-light: hsl(var(--hue-color), 10%, 65%); 
     --input-color: hsl(var(--hue-color), 29%, 16%);
     --body-color: hsl(var(--hue-color), 30%, 14%);
     --container-color: hsl(var(--hue-color), 30%, 16%);
